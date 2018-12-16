@@ -219,39 +219,87 @@ input[type=submit] {
 
 @media screen and (max-width: 980px ) {
 
-	.main-section {
-	  width: 60%;
+  .wrapper {
+    width: 980px;
+  }
+  .main-section {
+    width: 95%;
+  }
+
+
+	.container {
+	  width: 95%;
 	}
-	#masthead {
-	 width: 100%;
-	}
+	/* #masthead {
+	 width: auto;
+	} */
 	#logo {
-	width: 100%;
-  	}
+	width: 33%;
+  }
+  nav {
+    width: 40%;
+  }
+    
 }  
   
 @media screen and (max-width: 768px) {
+
+  .wrapper {
+    width: 768px;
+  }
+ 
+  
+  #logo {
+   width: 100%;
+  }
+
+  nav {
+    width: 100%;
+  }
 	
-	.main-section {
-	  width: 100%;
+	.container {
+    width: 95%;
+    align-content: center;
+  }
+  .main-section {
+    width: 95%;
+  }
+	
 	}
-	  #masthead {
-	 width: 100%;
-	}
-	 #logo {
-	width: 100%;
-	}
-} 
+
   
   @media screen and (max-width: 640) {
+
+   .wrapper {
+      width: 95%;
+   }
 	
-	.main-section {
+	 .container {
+    width: 95%;
+    align-content: center;
+   }
+   .main-section {
+    width: 95%;
+  }
+	 /* #masthead {
 	  width: 100%;
-	}
-	  #masthead {
-	  width: 100%;
-	}
+   } */
+   nav {
+     width: 100%;
+     float:left;
+     text-align: center;
+     align-content: center;
+   }
+    
 	  #logo {
-	  width: 100%;
-	}
+    width: 100%;
+    
+  }
+  .auth-image {
+    width: 50%;
+  }
+  .work {
+    width: 100%
+  }
+
 }
