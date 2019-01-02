@@ -3,8 +3,9 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  /* background: url("../images/concrete_seamless.png"); */
 }
+
 
 * {
   box-sizing: border-box;
